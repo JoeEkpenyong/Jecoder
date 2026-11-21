@@ -97,7 +97,7 @@ export default function ServicesPage() {
     <main className="min-h-screen bg-[#07111F] text-white">
       {/* Navigation */}
       <header className="fixed left-0 right-0 top-0 z-50 border-b border-white/10 bg-[#07111F]/95 backdrop-blur-md">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-8">
+        <div className="mx-auto flex max-w-[1440px] items-center justify-between px-4 py-5 lg:px-6">
           <Link
             href="/"
             className="text-2xl font-extrabold tracking-tight"
@@ -158,7 +158,7 @@ export default function ServicesPage() {
 
         {/* Mobile Navigation */}
         {menuOpen && (
-          <div className="border-t border-white/10 bg-[#07111F] px-6 py-6 md:hidden">
+          <div className="border-t border-white/10 bg-[#07111F] px-4 py-6 md:hidden">
             <nav className="flex flex-col gap-5">
               <Link
                 href="/"
@@ -205,7 +205,7 @@ export default function ServicesPage() {
       </header>
 
       {/* Hero */}
-      <section className="mx-auto max-w-7xl px-6 pb-24 pt-40 lg:px-8 lg:pb-32 lg:pt-48">
+      <section className="mx-auto max-w-[1440px] px-4 pb-24 pt-40 lg:px-6 lg:pb-32 lg:pt-48">
         <div className="max-w-4xl">
           <p className="mb-5 text-sm font-bold uppercase tracking-[0.3em] text-[#00cfff]">
             JECODER Services
@@ -242,7 +242,7 @@ export default function ServicesPage() {
 
       {/* Services */}
       <section className="border-y border-white/10 bg-[#0D1B2A]">
-        <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
+        <div className="mx-auto max-w-[1440px] px-4 py-24 lg:px-6">
           <div className="mb-16 max-w-3xl">
             <p className="mb-4 text-sm font-bold uppercase tracking-[0.25em] text-[#00cfff]">
               What We Do
@@ -300,7 +300,7 @@ export default function ServicesPage() {
       </section>
 
       {/* Process */}
-      <section className="mx-auto max-w-7xl px-6 py-24 lg:px-8 lg:py-32">
+      <section className="mx-auto max-w-[1440px] px-4 py-24 lg:px-6 lg:py-32">
         <div className="max-w-3xl">
           <p className="mb-4 text-sm font-bold uppercase tracking-[0.25em] text-[#00cfff]">
             Our Process
@@ -357,7 +357,7 @@ export default function ServicesPage() {
 
       {/* Why JECODER */}
       <section className="border-y border-white/10 bg-[#0D1B2A]">
-        <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8 lg:py-32">
+        <div className="mx-auto max-w-[1440px] px-4 py-24 lg:px-6 lg:py-32">
           <div className="grid gap-16 lg:grid-cols-2">
             <div>
               <p className="text-sm font-bold uppercase tracking-[0.25em] text-[#00cfff]">
@@ -405,7 +405,7 @@ export default function ServicesPage() {
       </section>
 
       {/* Projects CTA */}
-      <section className="mx-auto max-w-7xl px-6 py-24 text-center lg:px-8 lg:py-32">
+      <section className="mx-auto max-w-[1440px] px-4 py-24 text-center lg:px-6 lg:py-32">
         <p className="text-sm font-bold uppercase tracking-[0.3em] text-[#00cfff]">
           Our Work
         </p>
@@ -432,7 +432,7 @@ export default function ServicesPage() {
 
       {/* Contact CTA */}
       <section className="border-t border-white/10 bg-[#0D1B2A]">
-        <div className="mx-auto max-w-7xl px-6 py-24 text-center lg:px-8">
+        <div className="mx-auto max-w-[1440px] px-4 py-24 text-center lg:px-6">
           <p className="text-sm font-bold uppercase tracking-[0.3em] text-[#00cfff]">
             Start Something New
           </p>
@@ -460,7 +460,7 @@ export default function ServicesPage() {
 
       {/* Footer */}
       <footer className="border-t border-white/10">
-        <div className="mx-auto max-w-7xl px-6 py-10 lg:px-8">
+        <div className="mx-auto max-w-[1440px] px-4 py-10 lg:px-6">
           <div className="flex flex-col justify-between gap-6 md:flex-row md:items-center">
             <div>
               <Link
