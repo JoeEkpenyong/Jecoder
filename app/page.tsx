@@ -104,7 +104,7 @@ export default function Home() {
 
       {/* Navigation */}
       <nav className="fixed left-0 right-0 top-0 z-50 border-b border-white/10 bg-[#050b14]/85 backdrop-blur-xl">
-        <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 lg:px-8">
+        <div className="mx-auto flex h-20 max-w-[1440px] items-center justify-between px-4 lg:px-6">
           <Link
             href="/"
             className="group flex items-center gap-3"
@@ -179,7 +179,7 @@ export default function Home() {
         </div>
 
         {menuOpen && (
-          <div className="border-t border-white/10 bg-[#07111f] px-6 py-5 md:hidden">
+          <div className="border-t border-white/10 bg-[#07111f] px-4 py-5 md:hidden">
             <div className="flex flex-col gap-4">
               <Link
                 href="/services"
@@ -227,9 +227,9 @@ export default function Home() {
       {/* Hero */}
       <section
         id="home"
-        className="relative flex min-h-screen items-center px-6 pb-20 pt-32 lg:px-8"
+        className="relative flex min-h-screen items-center px-4 pb-20 pt-32 lg:px-6"
       >
-        <div className="mx-auto grid w-full max-w-7xl items-center gap-16 lg:grid-cols-[1.1fr_0.9fr]">
+        <div className="mx-auto grid w-full max-w-[1440px] items-center gap-16 lg:grid-cols-[1.1fr_0.9fr]">
           <div>
             <div className="mb-7 inline-flex items-center gap-2 rounded-full border border-[#00a8ff]/25 bg-[#00a8ff]/8 px-4 py-2">
               <span className="h-2 w-2 animate-pulse rounded-full bg-[#00e5ff]" />
@@ -337,8 +337,8 @@ export default function Home() {
       </section>
 
       {/* Intro strip */}
-      <section className="border-y border-white/10 bg-[#07111f]/60 px-6 py-8 lg:px-8">
-        <div className="mx-auto flex max-w-7xl flex-col justify-between gap-6 md:flex-row md:items-center">
+      <section className="border-y border-white/10 bg-[#07111f]/60 px-4 py-8 lg:px-6">
+        <div className="mx-auto flex max-w-[1440px] flex-col justify-between gap-6 md:flex-row md:items-center">
           <p className="max-w-2xl text-sm leading-6 text-[#8291a2]">
             We combine software engineering, creativity and technology to
             transform ideas into useful digital products.
@@ -357,9 +357,9 @@ export default function Home() {
       {/* Services */}
       <section
         id="services"
-        className="scroll-mt-24 px-6 py-28 lg:px-8 lg:py-36"
+        className="scroll-mt-24 px-4 py-28 lg:px-6 lg:py-36"
       >
-        <div className="mx-auto max-w-7xl">
+        <div className="mx-auto max-w-[1440px]">
           <div className="mb-16 max-w-3xl">
             <p className="mb-4 text-xs font-bold uppercase tracking-[0.3em] text-[#00bfff]">
               What we do
@@ -418,9 +418,9 @@ export default function Home() {
       {/* Projects */}
       <section
         id="projects"
-        className="scroll-mt-24 border-y border-white/10 bg-[#07111f]/55 px-6 py-28 lg:px-8 lg:py-36"
+        className="scroll-mt-24 border-y border-white/10 bg-[#07111f]/55 px-4 py-28 lg:px-6 lg:py-36"
       >
-        <div className="mx-auto max-w-7xl">
+        <div className="mx-auto max-w-[1440px]">
           <div className="mb-16 flex flex-col justify-between gap-8 lg:flex-row lg:items-end">
             <div className="max-w-3xl">
               <p className="mb-4 text-xs font-bold uppercase tracking-[0.3em] text-[#00bfff]">
@@ -513,9 +513,9 @@ export default function Home() {
       {/* Technology */}
       <section
         id="technology"
-        className="scroll-mt-24 px-6 py-28 lg:px-8 lg:py-36"
+        className="scroll-mt-24 px-4 py-28 lg:px-6 lg:py-36"
       >
-        <div className="mx-auto grid max-w-7xl gap-16 lg:grid-cols-[0.8fr_1.2fr] lg:items-center">
+        <div className="mx-auto grid max-w-[1440px] gap-16 lg:grid-cols-[0.8fr_1.2fr] lg:items-center">
           <div>
             <p className="mb-4 text-xs font-bold uppercase tracking-[0.3em] text-[#00bfff]">
               Technology
@@ -533,7 +533,7 @@ export default function Home() {
 
             <button
               onClick={() => scrollToSection("contact")}
-              className="mt-8 rounded-full border border-[#00a8ff]/30 bg-[#00a8ff]/8 px-6 py-3 text-sm font-bold text-white transition hover:bg-[#00a8ff]/15"
+              className="mt-8 rounded-full border border-[#00a8ff]/30 bg-[#00a8ff]/8 px-4 py-3 text-sm font-bold text-white transition hover:bg-[#00a8ff]/15"
             >
               Work With JECODER →
             </button>
@@ -563,9 +563,9 @@ export default function Home() {
       {/* About preview */}
       <section
         id="about"
-        className="scroll-mt-24 border-y border-white/10 bg-[#07111f]/55 px-6 py-28 lg:px-8 lg:py-36"
+        className="scroll-mt-24 border-y border-white/10 bg-[#07111f]/55 px-4 py-28 lg:px-6 lg:py-36"
       >
-        <div className="mx-auto grid max-w-7xl gap-14 lg:grid-cols-2 lg:items-center">
+        <div className="mx-auto grid max-w-[1440px] gap-14 lg:grid-cols-2 lg:items-center">
           <div>
             <p className="mb-4 text-xs font-bold uppercase tracking-[0.3em] text-[#00bfff]">
               About JECODER
@@ -591,7 +591,7 @@ export default function Home() {
 
             <Link
               href="/about"
-              className="mt-8 inline-flex items-center gap-3 rounded-full border border-[#00a8ff]/30 bg-[#00a8ff]/8 px-6 py-3 text-sm font-bold text-white transition hover:border-[#00e5ff]/60 hover:bg-[#00a8ff]/15"
+              className="mt-8 inline-flex items-center gap-3 rounded-full border border-[#00a8ff]/30 bg-[#00a8ff]/8 px-4 py-3 text-sm font-bold text-white transition hover:border-[#00e5ff]/60 hover:bg-[#00a8ff]/15"
             >
               Learn More About JECODER
               <span>→</span>
@@ -621,9 +621,9 @@ export default function Home() {
       {/* Contact CTA */}
       <section
         id="contact"
-        className="scroll-mt-24 px-6 py-28 lg:px-8 lg:py-36"
+        className="scroll-mt-24 px-4 py-28 lg:px-6 lg:py-36"
       >
-        <div className="relative mx-auto max-w-7xl overflow-hidden rounded-[2rem] border border-[#00a8ff]/20 bg-gradient-to-br from-[#0a1b2d] via-[#071321] to-[#050b14] p-8 sm:p-12 lg:p-20">
+        <div className="relative mx-auto max-w-[1440px] overflow-hidden rounded-[2rem] border border-[#00a8ff]/20 bg-gradient-to-br from-[#0a1b2d] via-[#071321] to-[#050b14] p-8 sm:p-12 lg:p-20">
           <div className="pointer-events-none absolute right-[-10%] top-[-50%] h-[500px] w-[500px] rounded-full bg-[#00a8ff]/10 blur-[100px]" />
 
           <div className="relative max-w-3xl">
@@ -669,8 +669,8 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="border-t border-white/10 px-6 py-10 lg:px-8">
-        <div className="mx-auto flex max-w-7xl flex-col justify-between gap-8 md:flex-row md:items-center">
+      <footer className="border-t border-white/10 px-4 py-10 lg:px-6">
+        <div className="mx-auto flex max-w-[1440px] flex-col justify-between gap-8 md:flex-row md:items-center">
           <div>
             <div className="text-xl font-black tracking-[0.12em]">
               JECODER
