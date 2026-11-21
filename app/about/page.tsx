@@ -5,7 +5,7 @@ export default function AboutPage() {
     <main className="min-h-screen bg-[#07111F] text-white">
       {/* Navigation */}
       <header className="border-b border-white/10">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-6 lg:px-8">
+        <div className="mx-auto flex max-w-[1440px] items-center justify-between px-4 py-6 lg:px-6">
           <Link
             href="/"
             className="text-2xl font-extrabold tracking-tight"
@@ -53,7 +53,7 @@ export default function AboutPage() {
       </header>
 
       {/* Hero */}
-      <section className="mx-auto max-w-7xl px-6 py-24 lg:px-8 lg:py-32">
+      <section className="mx-auto max-w-[1440px] px-4 py-24 lg:px-6 lg:py-32">
         <div className="max-w-4xl">
           <p className="mb-5 text-sm font-bold uppercase tracking-[0.3em] text-[#00cfff]">
             About JECODER
@@ -73,7 +73,7 @@ export default function AboutPage() {
 
       {/* About */}
       <section className="border-y border-white/10 bg-[#0D1B2A]">
-        <div className="mx-auto grid max-w-7xl gap-16 px-6 py-24 lg:grid-cols-2 lg:px-8">
+        <div className="mx-auto grid max-w-[1440px] gap-16 px-4 py-24 lg:grid-cols-2 lg:px-6">
           <div>
             <p className="mb-4 text-sm font-bold uppercase tracking-[0.25em] text-[#00cfff]">
               Who We Are
@@ -106,7 +106,7 @@ export default function AboutPage() {
       </section>
 
       {/* What We Do */}
-      <section className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
+      <section className="mx-auto max-w-[1440px] px-4 py-24 lg:px-6">
         <div className="mb-14 max-w-3xl">
           <p className="mb-4 text-sm font-bold uppercase tracking-[0.25em] text-[#00cfff]">
             What We Do
@@ -158,7 +158,7 @@ export default function AboutPage() {
 
       {/* Vision */}
       <section className="border-y border-white/10 bg-[#0D1B2A]">
-        <div className="mx-auto grid max-w-7xl gap-12 px-6 py-24 lg:grid-cols-3 lg:px-8">
+        <div className="mx-auto grid max-w-[1440px] gap-12 px-4 py-24 lg:grid-cols-3 lg:px-6">
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.25em] text-[#00cfff]">
               Our Mission
@@ -207,7 +207,7 @@ export default function AboutPage() {
       </section>
 
       {/* CTA */}
-      <section className="mx-auto max-w-7xl px-6 py-24 text-center lg:px-8 lg:py-32">
+      <section className="mx-auto max-w-[1440px] px-4 py-24 text-center lg:px-6 lg:py-32">
         <p className="text-sm font-bold uppercase tracking-[0.3em] text-[#00cfff]">
           Let&apos;s Build
         </p>
@@ -236,7 +236,7 @@ export default function AboutPage() {
 
       {/* Footer */}
       <footer className="border-t border-white/10">
-        <div className="mx-auto flex max-w-7xl flex-col gap-6 px-6 py-10 md:flex-row md:items-center md:justify-between lg:px-8">
+        <div className="mx-auto flex max-w-[1440px] flex-col gap-6 px-4 py-10 md:flex-row md:items-center md:justify-between lg:px-6">
           <div>
             <div className="text-xl font-extrabold">JECODER</div>
             <p className="mt-2 text-sm text-white/50">
